@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Lajavel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    @import "index.css"
+</head>
+
+<body class="language-php h-full w-full">
+    <div class="absolute top-0 w-full">
+        <header class="relative z-50 text-gray-700">
+            <div
+                class="relative max-w-screen-2xl mx-auto w-full py-4 bg-white transition duration-200 lg:bg-transparent lg:py-6">
+                <div class="max-w-screen-xl mx-auto px-5 flex items-center justify-between">
+                    <div class="flex-1">
+                        <a class="inline-flex items-center" href="/">
+                            <img width="52px" height="50px" src="/images/logo_lajavel.png" alt="">
+                            <h1 style="color=#7473CA" class="ml-5 font-logo">Lajavel</h1>
+                        </a>
+                    </div>
+                    <ul class="relative hidden lg:flex lg:items-center lg:justify-center lg:gap-6 xl:gap-10">
+                         <li>
+                            <a href="/parteners"> parteners </a>
+                         </li>
+                         <li>
+                            <a href="/contributors"> contributors </a>
+                         </li>
+                    </ul>
+                    <div class="flex-1 flex items-center justify-end">
+                        <a href="/documentation"
+                            class="group relative inline-flex border border-[#7473CA] focus:outline-none hidden lg:ml-4 lg:inline-flex">
+                            <span
+                                class="w-full inline-flex items-center justify-center self-stretch px-4 py-2 text-sm text-[#7473CA] text-center font-bold uppercase bg-white ring-1 ring-[#7473CA] ring-offset-1 transform transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 group-focus:-translate-y-1 group-focus:-translate-x-1">
+                                Documentation
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+    </div>
+    <div>
+        <section class="relative overflow-hidden pt-48 pb-20 lg:pt-48 xl:pt-56 xl:pb-28">
+            <span
+                class="hidden absolute bg-radial-gradient opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-24 w-[640px] h-[640px]">
+            </span>
+            <div class="relative max-w-screen-xl px-5 mx-auto">
+                <div class="absolute -left-2 -translate-y-12 pointer-events-none md:left-[12%]">
+                    <svg x-data="{
+                        initializeAnimation: false,
+                        init() {
+                            setTimeout(() => {
+                                this.initializeAnimation = true;
+                            }, 0);
+                        },
+                    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46"
+                        height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel"></path>
+                        <path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435"
+                            stroke-linejoin="bevel"></path>
+                        <path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+                    </svg>
+                </div>
+                <div class="absolute -right-2 -translate-y-20 pointer-events-none md:right-1/4">
+                    <svg x-data="{
+        initializeAnimation: false,
+        init() {
+            setTimeout(() => {
+                this.initializeAnimation = true;
+            }, 2000);
+        },
+    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46" height="53"
+                        viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel"></path>
+                        <path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435"
+                            stroke-linejoin="bevel"></path>
+                        <path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+                    </svg>
+                </div>
+                <div class="absolute bottom-0 right-6 -translate-y-20 pointer-events-none md:right-[12%]">
+                    <svg x-data="{
+        initializeAnimation: false,
+        init() {
+            setTimeout(() => {
+                this.initializeAnimation = true;
+            }, 1000);
+        },
+    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46" height="53"
+                        viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel"></path>
+                        <path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435"
+                            stroke-linejoin="bevel"></path>
+                        <path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path>
+                        <path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor"
+                            stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+                    </svg>
+                </div>
+                <div class="relative">
+                    <h1 class="max-w-3xl mx-auto text-5xl font-bold text-center md:text-6xl lg:text-7xl">The
+                        Framework <br class="hidden lg:inline"><span class="text-[#7473CA]">for Web Noobys</span></h1>
+                    <p
+                        class="mt-6 max-w-xl mx-auto text-center text-gray-700 text-md leading-relaxed md:mt-8 md:text-lg lg:mt-10">
+                        Lajavel is a web application framework with expressive, elegant syntax. We’ve already laid the
+                        foundation — freeing you to create without sweating the small things.</p>
+                    <div
+                        class="mt-6 max-w-sm mx-auto flex flex-col justify-center items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
+                        <a class="group relative inline-flex border border-[#7473CA] focus:outline-none w-full sm:w-auto"
+                            href="/documentation">
+                            <span
+                                class="w-full inline-flex items-center justify-center self-stretch px-4 py-2 text-sm text-white text-center font-bold uppercase bg-[#7473CA] ring-1 ring-vlue-500 ring-offset-1 ring-offset-clue-500 transform transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 group-focus:-translate-y-1 group-focus:-translate-x-1">
+                                Get Started
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="relative overflow-hidden py-16 md:pt-24 lg:pt-64">
+        <span class="hidden absolute bg-radial-gradient opacity-[.15] pointer-events-none lg:inline-flex right-[-20%] top-0 w-[640px] h-[640px]"></span>
+        <div class="hidden lg:block absolute -right-2 bottom-40 pointer-events-none">
+            <svg x-data="{
+        initializeAnimation: false,
+        init() {
+            setTimeout(() => {
+                this.initializeAnimation = true;
+            }, 2000);
+        },
+    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+            </svg>
+        </div>
+        <div class="hidden lg:block absolute left-2 top-48 pointer-events-none lg:top-auto lg:bottom-64 lg:left-1/2">
+            <svg x-data="{
+        initializeAnimation: false,
+        init() {
+            setTimeout(() => {
+                this.initializeAnimation = true;
+            }, 3000);
+        },
+    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+            </svg>
+        </div>
+        <div class="hidden lg:block absolute top-20 right-1/4 pointer-events-none md:top-48 md:right-1/4">
+            <svg x-data="{
+        initializeAnimation: false,
+        init() {
+            setTimeout(() => {
+                this.initializeAnimation = true;
+            }, 500);
+        },
+    }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-[#7473CA] animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+            </svg>
+        </div>
+        <div class="relative max-w-screen-xl w-full mx-auto xl:px-5">
+            <div style="height:342px;" class="relative w-full grid gap-12 lg:grid-cols-2">
+                <div class="overflow-hidden flex justify-center lg:order-last">
+                    <div class="translate-x-32 sm:translate-x-0 lg:translate-x-20 xl:translate-x-0">
+                        <img class="mx-auto" style=" transform:rotate(1deg) translateY(100px); border-radius: 10px;"  src="/images/getting_started.png">
+                    </div>
+                </div>
+                <div class="w-full flex justify-center items-center px-5 xl:px-0">
+                    <div class="sm:max-w-[480px]" >
+                        <h2 class="text-4xl font-bold md:text-5xl">Getting Started.</h2>
+                        <p class="mt-6 text-gray-700 leading-relaxed">To start the server simply write :</p>
+                        <p>Application.start(8080);</p>
+                        <p>Then you can register any route you want :</p>
+                        <a class="group relative inline-flex border border-[#7473CA] focus:outline-none mt-6" href="/documentation">
+    <span class="w-full inline-flex items-center justify-center self-stretch px-4 py-2 text-sm text-[#7473CA] text-center font-bold uppercase bg-white ring-1 ring-[#7473CA] ring-offset-1 transform transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 group-focus:-translate-y-1 group-focus:-translate-x-1">
+        Start Learning
+    </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<style>
+    .bg-radial-gradient {
+        background-image: radial-gradient(50% 50% at 50% 50%, blue 0, hsla(0, 0%, 100%, 0) 100%);
+    }
+</style>
+
+</html>

@@ -1,0 +1,27 @@
+    @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+       -moz-user-select: none; /* Firefox */
+       -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+       -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+       user-select: none;
+    }
+
+    :root {
+      --text-color: red;
+      --text-size: 5rem;
+    }
+
+    * {
+      margin: 0;
+    }
+
+    .font-logo {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #7473CA;
+            font-size: 2em;
+            font-weight: 600;
+            line-height: 1.5rem;
+        }

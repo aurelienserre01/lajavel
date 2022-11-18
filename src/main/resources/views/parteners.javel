@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <title>Contributors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    @import "partener.css"
+    @import "index.css"
+
+</head>
+<body>
+<div class="absolute top-0 w-full">
+        <header class="relative z-50 text-gray-700">
+            <div
+                class="relative max-w-screen-2xl mx-auto w-full py-4 bg-white transition duration-200 lg:bg-transparent lg:py-6">
+                <div class="max-w-screen-xl mx-auto px-5 flex items-center justify-between">
+                    <div class="flex-1">
+                        <a class="inline-flex items-center" href="/">
+                            <img width="52px" height="50px" src="/images/logo_lajavel.png" alt="">
+                            <h1 class="ml-5 font-logo">Lajavel</h1>
+                        </a>
+                    </div>
+                    <ul class="relative hidden lg:flex lg:items-center lg:justify-center lg:gap-6 xl:gap-10">
+                        <li>
+                             <a href="/parteners"> parteners </a>
+                        </li>
+                        <li>
+                            <a href="/contributors"> contributors </a>
+                        </li>
+                    </ul>
+                    <div class="flex-1 flex items-center justify-end">
+                        <a href="/documentation"
+                            class="group relative inline-flex border border-[#7473CA] focus:outline-none hidden lg:ml-4 lg:inline-flex">
+                            <span
+                                class="w-full inline-flex items-center justify-center self-stretch px-4 py-2 text-sm text-[#7473CA] text-center font-bold uppercase bg-white ring-1 ring-[#7473CA] ring-offset-1 transform transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 group-focus:-translate-y-1 group-focus:-translate-x-1">
+                                Documentation
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+    </div>
+    <div style="display: flex; flex-direction:row;">
+         {% for partener in parteners %}
+               <article class="profile">
+                   <div class="profile__bg"></div>
+                   <div class="profile__info">
+                     <h1 class="profile__name">{{partener.getCompanyName() }}</h1>
+                     <p class="profile__location">{{partener.location}}</p>
+                   </div>
+                   <div class="profile__img__container">
+                     <img class="profile__img" src={{partener.getUrlLogo() }} alt="photo-of-victor-crest">
+                   </div>
+                 </article>
+         {% endfor %}
+    </div>
+
+</body>
+<style>
+
+</style>
+</html>
